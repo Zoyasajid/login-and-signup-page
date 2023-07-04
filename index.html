@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Login Form</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="./360_F_360646378_zVrp1gmsEik4TArd6jY032KSDRGAKse9.jpg">
+	<div class="container">
+		<div class="img">
+		<div class="login-content" id="loginform" style="display: block;">
+			<form action="index.html" href="#">
+                <img src="./undraw_pic_profile_re_7g2h.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Email</h5>
+           		   		<input type="text" class="input" id="mail">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" id="pswd">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+				
+            	<input type="button" class="btn" onclick="btn()" id="login-btn" value="Login" >
+				<p class="link">back to <a href="#" id="block">signup</a></p>
+            </form>
+		</div>
+	</div>
+	</div>
+    <div class="second" id="other">
+		
+			<div class="login-content" id="signupform">
+				<form action="index.html">
+					<img src="./undraw_pic_profile_re_7g2h.svg">
+					<h2 class="title">Welcome</h2>
+					
+					   <div class="input-div one">
+						  <div class="i">
+								  <i class="fas fa-user"></i>
+						  </div>
+						  <div class="div">
+								  <h5>Username</h5>
+								  <input type="text" class="input" id="mail2" class="user">
+						  </div>
+					   </div>
+					   <div class="input-div two">
+						<div class="i">
+							<i class="fa fa-envelope" ></i>
+
+						</div>
+						<div class="div">
+						<h5>Email</h5>
+						<input type="email" class="input" id="email">
+					</div>
+					   </div>
+					   <div class="input-div pass">
+						  <div class="i"> 
+							   <i class="fas fa-lock"></i>
+						  </div>
+						  
+						  <div class="div">
+							   <h5>Password</h5>
+							   <input type="password" class="input" id="pswd2">
+					   </div>
+					</div>
+					<a class="forget" href="#">Forgot Email</a>
+					
+					<input type="button" class="btn" onclick="btn2()" id="login-btn2" value="signup" >
+
+					<p class="link">Have an account<a href="#" id="none" class="login">login</a></p>
+				
+				</form>
+			</div>
+			
+	</div> 
+
+
+       
+</body>
+<script src="./type.js"></script>
+</html>

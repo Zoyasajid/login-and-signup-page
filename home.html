@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .bar{
+	width: 100%;
+	height: 100vh;
+	border: 6px solid rgb(38, 30, 18);
+	background-color: #333;
+  }
+  .logo{
+	left: 4%; 
+    color: rgb(13, 8, 8);
+      /* top: 4%;  */
+	  margin-top: 3%;
+        font-size: 3rem;
+       position: absolute;
+  }
+  .navbar{
+	width: 100%;
+	height: 20%;
+	background-color: orange;
+  }
+#nav-btn{
+	/* left: 19%;  */
+    color: rgb(13, 8, 8);
+      /* top: 1%;  */
+	  /* right: 12px; */
+	  margin-left: 86%;
+	  margin-top: 3%;
+        font-size: 3rem;
+		/* position: absolute; */
+		cursor: pointer;
+		background-color: orange;
+		border: none;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+@media (max-width:700px) {
+    #nav-btn{
+        font-size: 1.5rem;
+        /* top: 34%; */
+        margin-left: 70%;
+        margin-top: 20%;
+        position: none;
+    } 
+    .logo{
+        font-size: 2rem;
+        top: 5px;
+        color: yellow;
+    }
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+}
+</style>
+<body>
+    <div class="bar" >
+        <div class="navbar">
+            <h1 class="logo">WELCOME</h1>
+            <button id="nav-btn"  onclick="logout()">logout</button>
+        </div>	
+        <h1><span id="wlc"></span></h1>
+        </div>
+</body>
+<script src="./type.js"></script>
+<script src="./index.html"></script>
+<script src="./home.js"></script>
+</html>
